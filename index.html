@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamDic - Удаление фона</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Horizon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="brand-title">DreamDic</h1>
+    </header>
+    <main>
+        <div class="upload-container">
+            <input type="file" id="file-input" accept="image/*" />
+            <button id="remove-bg-btn" disabled>Удалить фон</button>
+        </div>
+        <div class="image-container">
+            <div class="image-frame">
+                <h2>Исходное изображение</h2>
+                <img id="original-image" src="" alt="Исходное изображение" />
+                <button id="delete-image" class="delete-btn" style="display: none;">&#10006;</button>
+            </div>
+            <div class="image-frame">
+                <h2>Изменённое изображение</h2>
+                <img id="modified-image" src="" alt="Изменённое изображение" style="display: none;" />
+                <a id="download-link" href="#" style="display: none;">Скачать измененное изображение</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ad-block">
+            Рекламный блок
+        </div>
+        <p class="description">
+            Обработайте фото и получите прозрачный фон мгновенно!
+            ⚡ Наш инструмент для удаления фона – это быстро, просто и эффективно
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

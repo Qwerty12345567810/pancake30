@@ -1,0 +1,91 @@
+body {
+    font-family: 'Horizon', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4caf50; /* Зеленый цвет */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Более темный зеленый цвет */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.image-frame {
+    border: 2px solid #4caf50; /* Зеленая рамка */
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-frame img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border: none;
+    color: #ff0000; /* Красный цвет для удаления */
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ad-block {
+    background-color: #d0ffd0; /* Светло-зеленый цвет */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.description {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
